@@ -1,0 +1,7 @@
+[user]
+	name = Alexandre JOANNOU
+	email = alexandre.joannou@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
