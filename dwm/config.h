@@ -54,7 +54,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[]   = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 //static const char *termcmd[]  = { "uxterm", NULL };
 //static const char *termcmd[]    = { "uxterm", "-bg", "black", "-fg", "gray", "-fn", "10x20" };
-static const char *termcmd[]    = { "urxvt", "+sb", "-fg", "gray", "-fn", "10x20", "-tr", "-tint", "pink", "-sh", "30"};
+static const char *termcmd[]    = { "urxvt", "+sb", "-fg", "gray", "-fn", "-*-fixed-medium-*-*-*-18-*-*-*-*-*-*-*", "-tr", "-tint", "pink", "-sh", "30"};
 //screen lock
 static const char *slockcmd[]   = { "slock" };
 
